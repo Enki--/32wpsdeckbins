@@ -2,23 +2,25 @@
 Compiled Firmware for our Decks!
 
 # Step 0
-Check you currently have QMK VIA enabled, using one of the [supported browswer](https://caniuse.com/?search=webhid)
+Using a [supported browser](https://caniuse.com/?search=webhid), check that you have QMK enabled by going to this url: https://usevia.app/
 
-By going to this url: https://usevia.app/
+The webpage should accurately identify the keyboard to be flashed my make and model.
 
 # Step 1
-```
-gh repo clone Enki--/32wpsdeckbins
-```
-# Step 2
+Download the binaries to your machine (does not have to be *nix)
+`gh repo clone Enki--/32wpsdeckbins`
 
-Install [QMK toolbox](https://github.com/qmk/qmk_toolbox/releases)
+# Step 2
+Install [QMK toolbox](https://github.com/qmk/qmk_toolbox/releases), open it, and watch for console messages
 
 # Step 3
+*For V-series Keychron boards:
+        Remove power, remove spacebar, and press and hold exposed reset button while reconnecting power (link to site)[https://www.keychron.com/blogs/archived/how-to-factory-reset-or-flash-your-qmk-via-enabled-keychron-v1-keyboard]
 
-Open QMK Toolbox, and pick the right firmware for our deck, then click flash and watch it work. 
+Make sure QMK Toolkit picked up the board (console message should mention "DFU device connected")
 
 # Step 4
-Check QMK VIA no longer works, using one of the [supported browswer](https://caniuse.com/?search=webhid)
+Open the right firmware in QMK Toolbox our deck, then click flash and watch it work.
 
-By going to this url: https://usevia.app/
+# Step 5
+Using a [supported browser](https://caniuse.com/?search=webhid), check that QMK VIA no longer works by going to this url: https://usevia.app/
