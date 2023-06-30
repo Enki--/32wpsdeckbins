@@ -15,7 +15,7 @@ Install [QMK toolbox](https://github.com/qmk/qmk_toolbox/releases), open it, and
 
 # Step 3
 *For V-series Keychron boards:
-        Remove power, remove spacebar, and press and hold exposed reset button while reconnecting power (link to site)[https://www.keychron.com/blogs/archived/how-to-factory-reset-or-flash-your-qmk-via-enabled-keychron-v1-keyboard]
+        Remove power, remove spacebar, and press and hold exposed reset button while reconnecting power [link to site](https://www.keychron.com/blogs/archived/how-to-factory-reset-or-flash-your-qmk-via-enabled-keychron-v1-keyboard)
 
 Make sure QMK Toolkit picked up the board (console message should mention "DFU device connected")
 
